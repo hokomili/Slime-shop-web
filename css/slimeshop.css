@@ -1,0 +1,29 @@
+a{
+    text-decoration: none !important; 
+    color:rgba(0,0,0,.5);
+}
+main{
+    padding-top: 3rem;
+    background-color:#ccffa8;
+}
+nav,footer{
+    background-color:hsla(113, 62%, 63%, 0.3);
+}
+footer{
+    padding:2rem;
+}
+ul li{
+    text-align:center;
+    margin:auto;
+    width: 200px;
+}
+#navbot{
+    position:fixed ;
+    bottom:2rem;
+    right:2rem;
+    z-index:1030;
+}
+#gototop{
+    background-color:hsla(113, 62%, 63%, 0.5);
+    padding:2rem;
+}
