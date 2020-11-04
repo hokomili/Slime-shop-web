@@ -8,7 +8,7 @@ main{
     background-color:#ccffa8;
 }
 nav,footer{
-    background-color:hsla(113, 62%, 63%, 0.3);
+    background-color:hsla(114, 8%, 25%, 0.3);
 }
 footer{
     padding:2rem;
@@ -21,14 +21,14 @@ ul li{
 }
 .slime{
     border: 1rem solid;
-    border-color: hsla(113, 56%, 18%,0.3);
+    border-color: hsla(114, 8%, 25%,0.3);
     border-radius:6rem 6rem 2rem 2rem ;
 }
 .eye{
     position: relative;
     width: 2rem;
     height: 1.6rem;
-    background: hsla(113, 56%, 18%,0.4);
+    background: hsla(114, 8%, 25%, 0.4);
     border-radius: 50%;
     border: 1rem solid;
     border-color:hsla(140, 100%, 99%, 0.3); 
@@ -46,10 +46,30 @@ ul li{
     background-color:hsla(113, 62%, 63%, 0.5);
     padding:1.5rem 2rem;
 }
+.slimeeyes{
+    padding-left:1rem;
+    padding-right:1rem;
+    display:flex;
+    justify-content: space-around;
+}
 .slimecollapse:not(:hover){
     animation-name: slimed;
     animation-duration:1s;
     animation-iteration-count:infinite;
+    z-index:1;
+}
+.slimecollapse:hover{
+    z-index: 2;
+}
+.largeslime:hover{
+    position:relative;
+    z-index:2;
+}
+.largeslime:not(:hover){
+    animation-name: slimed2;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    z-index:3;
 }
 .slimecollapse.open{
     transform: scaleY(0);
@@ -62,5 +82,11 @@ ul li{
     0%   {transform:scale(1,1);}
     25%  {transform:scale(0.8,1);}
     75%  {transform:scale(1,0.8);}
+    100% {transform:scale(1,1);}
+}
+@keyframes slimed2 {
+    0%   {transform:scale(1,1);}
+    25%  {transform:scale(0.95,1);}
+    75%  {transform:scale(1,0.95);}
     100% {transform:scale(1,1);}
 }
