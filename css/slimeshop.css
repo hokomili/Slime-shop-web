@@ -90,3 +90,27 @@ ul li{
     75%  {transform:scale(1,0.95);}
     100% {transform:scale(1,1);}
 }
+#sh01:not(:hover){
+    animation-delay:100ms;
+}
+#sh02:not(:hover){
+    animation-delay:200ms;
+}
+#sh03:not(:hover){
+    animation-delay:300ms;
+}
+#sh04:not(:hover){
+    animation-delay:400ms;
+}
+#sh05:not(:hover){
+    animation-delay:500ms;
+}
+#sh06:not(:hover){
+    animation-delay:600ms;
+}
+#sh07:not(:hover){
+    animation-delay:700ms;
+}
+#sh08:not(:hover){
+    animation-delay:800ms;
+}
