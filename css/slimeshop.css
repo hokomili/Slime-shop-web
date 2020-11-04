@@ -19,6 +19,9 @@ ul li{
     margin:auto;
     width: 200px;
 }
+strong{
+    font-size: large;
+}
 .slime{
     border: 1rem solid;
     border-color: hsla(114, 8%, 25%,0.3);
