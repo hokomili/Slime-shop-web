@@ -2,7 +2,7 @@ $(function () {
     'use strict'
   
     $('[data-toggle="slimejump"]').on('click', function () {
-      $('.slimecollapse').toggleClass('open')
+      $('nav.slimecollapse').toggleClass('open')
     })
 })
 window.onscroll = function() {myFunction()};

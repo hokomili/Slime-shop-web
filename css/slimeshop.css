@@ -22,13 +22,13 @@ ul li{
 #navbot{
     padding:0.5rem;
     position:fixed;
-    bottom:2rem;
-    right:2rem;
+    bottom:2.5rem;
+    right:2.5rem;
     z-index:1030;
 }
 #gototop{
     background-color:hsla(113, 62%, 63%, 0.5);
-    padding:2rem;
+    padding:1.5rem 2rem;
 }
 .slimecollapse:not(:hover){
     animation-name: slimed;
